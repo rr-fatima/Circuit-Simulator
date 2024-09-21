@@ -22,7 +22,7 @@ The program is implemented using the C standard libraries, including `math.h`, `
      - For removal, the user provides the label of the resistor, and the program searches for it in the list to delete the corresponding node and free its memory.
 
 3. **Calculations**  
-   - The program calculates the total resistance by traversing the linked list and computes the current using Ohm's law: \( I = \frac{V}{R_{\text{total}}} \). It also allows for voltage calculations across individual resistors based on the current and resistance.
+   - The program calculates the total resistance by traversing the linked list and computes the current using Ohm's law: I = V/R . It also allows for voltage calculations across individual resistors based on the current and resistance.
 
 4. **Memory Management**  
    - The program manages memory efficiently by allocating memory for new nodes using `malloc` and freeing memory for deleted nodes with `free`. Upon quitting, all nodes are freed, and their labels are printed to confirm the deletion.
